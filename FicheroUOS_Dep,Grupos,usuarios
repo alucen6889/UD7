@@ -1,0 +1,42 @@
+#Crear UOs
+dn: ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: Departamentos
+
+dn: ou=DepINF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: DepINF
+
+dn: ou=DepENF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: DepENF
+
+dn: ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: DepFIS
+
+#Crear UOs grupos
+dn: ou=grupoINF,ou=DepINF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: grupoINF
+
+dn: ou=grupoENF,ou=DepENF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: grupoENF
+
+dn: ou=grupoFIS,ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: grupoFIS
+
+#Crear UOs usuarios
+dn: ou=usuariosINF,ou=DepINF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: usuariosINF
+
+dn: ou=usuariosENF,ou=DepENF,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: usuariosENF
+
+dn: ou=usuariosFIS,ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
+objectClass: organizationalUnit
+ou: usuariosFIS
