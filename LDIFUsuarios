@@ -1,0 +1,36 @@
+#Creación de usuarios
+dn: uid=RodrigoGallegoChaves,ou=usuariosINF,ou=DepINF,ou=Departamentos,dc=provincial,dc=local
+cn: RodrigoGallegoChaves
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uidNumber: 100
+gidNumber: 500
+sn: RgallegoC
+userPassword: {SSHA} 2szYQFMMmhOI29aTJC1Hmk$/40q/42AP
+displayName: UsuarioInf
+homeDirectory: /home/userInf
+
+dn: uid=BasilioMonchoCoello,ou=usuariosENF,ou=DepENF,ou=Departamentos,dc=provincial,dc=local
+cn: BasilioMonchoCoello
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uidNumber: 101
+gidNumber: 501
+sn: BmonchoC
+userPassword: {SSHA} qRjnTKa3e4Xs0L1WfRvh7f4c9iPMNreR
+displayName: UsuarioEnf
+homeDirectory: /home/userEnf
+
+dn: uid=PiedadAlbaGomis,ou=usuariosFIS,ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
+cn: PiedadAlbaGomis
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uidNumber: 102
+gidNumber: 502
+sn: PalbaG
+userPassword: {SSHA}f5kc+zvaWo14K32daN0pO8H+Oaw5tmx5
+displayName: UsuarioFis
+homeDirectory: /home/userFis
