@@ -2,11 +2,14 @@
 dn: cn=GGInf,ou=grupoINF,ou=DepINF,ou=Departamentos,dc=provincial,dc=local
 objectClass: posixGroup
 cn: GGInf
+gidNumber: 500
 
 dn: cn=GGEnf,ou=grupoENF,ou=DepENF,ou=Departamentos,dc=provincial,dc=local
 objectClass: posixGroup
 cn: GGInf
+gidNumber: 501
 
 dn: cn=GGFis,ou=grupoFIS,ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
 objectClass: posixGroup
 cn: GGInf
+gidNumber: 502
