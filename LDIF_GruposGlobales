@@ -1,0 +1,12 @@
+#Creación Grupos Globales
+dn: cn=GGInf,ou=grupoINF,ou=DepINF,ou=Departamentos,dc=provincial,dc=local
+objectClass: posixGroup
+cn: GGInf
+
+dn: cn=GGEnf,ou=grupoENF,ou=DepENF,ou=Departamentos,dc=provincial,dc=local
+objectClass: posixGroup
+cn: GGInf
+
+dn: cn=GGFis,ou=grupoFIS,ou=DepFIS,ou=Departamentos,dc=provincial,dc=local
+objectClass: posixGroup
+cn: GGInf
